@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>image</title>
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-    <script text = "type/javascript" src = "JS/main.js"></script>
+    <title> JSGF Week 4 JavaScript Fundamentals</title>
+             <script type="text/javascript" src="JS/fundamentals.js"></script>
+
 </head>
-<body>
-    <h1>First Level Heading</h1>
-    <p>Opening Paragraph</p>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
+<body onload="initialise()">
+    <h1>Hello World</h1>
+    <p>This is the first paragraph</p>
+    <!-- Javascript fundamentals-->
+    <!-- Changing HTML Elements -->
+     <p id="printhere">Default Text</p>
+     <!-- <script> -->
+        <!-- document.getElementById("printhere").innerHTML = "Hello World"; -->
+     <!-- </script> -->
 
-    <p> Here is some interesting text </p>
-    <img src="assets/image.jpg" alt="interesting image" style="width: 200px; height: 200px;">
-    <br>
-    <a href="https://en.wikipedia.org/wiki/Image">wikipedia of An Image</a>
-    <br>
+      <!-- Display Date and Time -->
+    <p id='dateTime'>Time</p>
+    <button type=“button” onclick="dateTime()">Todays Date</button>
+
+    <!-- Strings -->
+     <p id="datatypes"></p>
 
 
-    <div class="buttons">
-        <button onclick = myFunction()>Image button</button>
-    </div>
-
-    <ul style="list-style: square;">
-    <li>No. 1</li>
-     <li>No. 2</li>
-      <li>No. 3</li>
-    </ul>
-    <ol type="I">
-   <li>No. 1</li>
-     <li>No. 2</li>
-      <li>No. 3</li>
-    </ol>
+       <!-- Booleans -->
+     <p id="booleans"></p>
      
+       <!-- arrays -->
+     <p id="array"></p>
+      <p id="changearray"></p>
+       <p id="fullarray"></p>
+        <p id="arraylength"></p>
+
+
+       <!-- For Loop -->
+     <p id="forloop"></p>
+
+      <!-- Functions -->
+     <p id="function"></p>
+
+
+
+
+
 </body>
 </html>
