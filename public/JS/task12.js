@@ -9,7 +9,7 @@ function preload(){
     faces[5] = new Image(); faces[5].src = "images/dice-6.png";
 }
 
-function roll1(imgElement){
+function roll(imgElement){
   let face = Math.floor(Math.random() * 6)
   imgElement.src = faces[face].src
 }
